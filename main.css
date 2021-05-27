@@ -1,0 +1,48 @@
+.logo {
+    height: 45px;
+}
+
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.border-lg-left {
+    border-left: 1px solid #B4B4B4;
+}
+
+@media (max-width: 992px) {
+    .border-lg-left {
+        border-left: none;
+    }
+}
+
+.contact-button {
+    background: rgb(52,153,70);
+    background: linear-gradient(90deg, rgba(52,153,70,1) 0%, rgba(0,102,53,1) 100%);
+    color: white;
+}
+
+.contact-button p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.contact-button a {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-family: "NotoSansCJKjp", sans-serif;
+    color: #333366;
+    font-weight: bold;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
