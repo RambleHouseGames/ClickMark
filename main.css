@@ -46,3 +46,96 @@
     width: 100%;
     height: auto;
 }
+
+.section {
+    margin-left: 10px;
+    margin-top: 20px;
+    border-left: 10px solid #00457E;
+}
+
+.section-header {
+    margin-top: 40px;
+}
+
+.section-content {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.section-header h1 {
+    font-family: "Belleza";
+    font-size: 45pt;
+    color: #00457E;
+}
+
+.service {
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+}
+
+.service h2 {
+    color: #103659;
+    font-size: 15pt;
+}
+
+.centered-abs {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.right-abs {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%, -50%);
+}
+
+.estimation-dark {
+    font-size: 18pt;
+    color:#103659;
+}
+
+.estimation-light {
+    font-size: 18pt;
+    color:white;
+}
+
+.about img {
+    width: 100%;
+    height: auto;
+}
+
+.meeting-btn {
+    background: rgb(16,53,89);
+    background: linear-gradient(90deg, rgba(16,53,89,1) 0%, rgba(14,60,117,1) 100%);
+    color: white;
+}
+
+.blue-btn {
+    background: #103659;
+    color: white;
+}
+
+.gray-btn {
+    background: #ADADAD;
+    color: white;
+}
+
+.meeting-btn img {
+    height: 100%;
+    width: auto;
+}
+
+.contact-section {
+    margin-top: 50px;
+}
+
+.warning-box {
+    background: #FBF1C8;
+}
